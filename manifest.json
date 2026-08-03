@@ -4,78 +4,163 @@
   "fictionalCompany": "Fabrikam Field Energy",
   "repository": "AndrewConniff/Oil-and-Gas-Demo",
   "disclaimer": "This demo uses a fictional Microsoft Fake Company created for demonstration purposes. Any resemblance to real organizations, people, products, services, or data is coincidental. Do not use customer confidential information in this repository.",
+  "scope": "Course-scoped Microsoft 365 Copilot demos for MS-4023, AI-3025, and MS-4018 app deliveries.",
   "artifacts": [
     {
-      "path": "README.md",
-      "purpose": "Repository overview, scenario, setup, and download links.",
+      "path": "courses/AI-3025-Licensed-Copilot-Chat/INSTRUCTIONS.docx",
       "classification": "Public",
+      "purpose": "Course-scoped demo instruction or supporting artifact.",
+      "generatedSampleContent": false
+    },
+    {
+      "path": "courses/AI-3025-Licensed-Copilot-Chat/README.md",
+      "classification": "Public",
+      "purpose": "Course-scoped demo instruction or supporting artifact.",
+      "generatedSampleContent": false
+    },
+    {
+      "path": "courses/MS-4018-Excel/artifacts/Fabrikam_Field_Operations_Analysis.xlsx",
+      "classification": "Public",
+      "purpose": "Course-scoped demo instruction or supporting artifact.",
+      "generatedSampleContent": true
+    },
+    {
+      "path": "courses/MS-4018-Excel/INSTRUCTIONS.docx",
+      "classification": "Public",
+      "purpose": "Course-scoped demo instruction or supporting artifact.",
+      "generatedSampleContent": false
+    },
+    {
+      "path": "courses/MS-4018-Excel/README.md",
+      "classification": "Public",
+      "purpose": "Course-scoped demo instruction or supporting artifact.",
+      "generatedSampleContent": false
+    },
+    {
+      "path": "courses/MS-4018-Outlook/artifacts/Fabrikam_Field_Enablement_Followup.eml",
+      "classification": "Public",
+      "purpose": "Course-scoped demo instruction or supporting artifact.",
+      "generatedSampleContent": true
+    },
+    {
+      "path": "courses/MS-4018-Outlook/artifacts/Fabrikam_Field_Enablement_Followup.html",
+      "classification": "Public",
+      "purpose": "Course-scoped demo instruction or supporting artifact.",
+      "generatedSampleContent": true
+    },
+    {
+      "path": "courses/MS-4018-Outlook/INSTRUCTIONS.docx",
+      "classification": "Public",
+      "purpose": "Course-scoped demo instruction or supporting artifact.",
+      "generatedSampleContent": false
+    },
+    {
+      "path": "courses/MS-4018-Outlook/README.md",
+      "classification": "Public",
+      "purpose": "Course-scoped demo instruction or supporting artifact.",
+      "generatedSampleContent": false
+    },
+    {
+      "path": "courses/MS-4018-PowerPoint/artifacts/Fabrikam_Field_Readiness_Update.pptx",
+      "classification": "Public",
+      "purpose": "Course-scoped demo instruction or supporting artifact.",
+      "generatedSampleContent": true
+    },
+    {
+      "path": "courses/MS-4018-PowerPoint/INSTRUCTIONS.docx",
+      "classification": "Public",
+      "purpose": "Course-scoped demo instruction or supporting artifact.",
+      "generatedSampleContent": false
+    },
+    {
+      "path": "courses/MS-4018-PowerPoint/README.md",
+      "classification": "Public",
+      "purpose": "Course-scoped demo instruction or supporting artifact.",
+      "generatedSampleContent": false
+    },
+    {
+      "path": "courses/MS-4018-Teams/artifacts/Fabrikam_Teams_Operations_Thread.md",
+      "classification": "Public",
+      "purpose": "Course-scoped demo instruction or supporting artifact.",
+      "generatedSampleContent": true
+    },
+    {
+      "path": "courses/MS-4018-Teams/INSTRUCTIONS.docx",
+      "classification": "Public",
+      "purpose": "Course-scoped demo instruction or supporting artifact.",
+      "generatedSampleContent": false
+    },
+    {
+      "path": "courses/MS-4018-Teams/README.md",
+      "classification": "Public",
+      "purpose": "Course-scoped demo instruction or supporting artifact.",
+      "generatedSampleContent": false
+    },
+    {
+      "path": "courses/MS-4018-Word/artifacts/Fabrikam_Field_Operations_Brief.docx",
+      "classification": "Public",
+      "purpose": "Course-scoped demo instruction or supporting artifact.",
+      "generatedSampleContent": true
+    },
+    {
+      "path": "courses/MS-4018-Word/INSTRUCTIONS.docx",
+      "classification": "Public",
+      "purpose": "Course-scoped demo instruction or supporting artifact.",
+      "generatedSampleContent": false
+    },
+    {
+      "path": "courses/MS-4018-Word/README.md",
+      "classification": "Public",
+      "purpose": "Course-scoped demo instruction or supporting artifact.",
+      "generatedSampleContent": false
+    },
+    {
+      "path": "courses/MS-4023-Unlicensed-Copilot-Chat/INSTRUCTIONS.docx",
+      "classification": "Public",
+      "purpose": "Course-scoped demo instruction or supporting artifact.",
+      "generatedSampleContent": false
+    },
+    {
+      "path": "courses/MS-4023-Unlicensed-Copilot-Chat/README.md",
+      "classification": "Public",
+      "purpose": "Course-scoped demo instruction or supporting artifact.",
+      "generatedSampleContent": false
+    },
+    {
+      "path": "DEMO-INSTRUCTIONS.docx",
+      "classification": "Public",
+      "purpose": "Course-scoped demo instruction or supporting artifact.",
       "generatedSampleContent": false
     },
     {
       "path": "DEMO-INSTRUCTIONS.md",
-      "purpose": "Concise trainer runbook ordered by course material.",
       "classification": "Public",
+      "purpose": "Course-scoped demo instruction or supporting artifact.",
       "generatedSampleContent": false
-    },
-    {
-      "path": "prompts/copilot-chat-prompts.md",
-      "purpose": "MS-4023 Copilot Chat prompt flow.",
-      "classification": "Public",
-      "generatedSampleContent": true
-    },
-    {
-      "path": "prompts/m365-copilot-prompts.md",
-      "purpose": "AI-3025 and Copilot in Apps prompt flow.",
-      "classification": "Public",
-      "generatedSampleContent": true
-    },
-    {
-      "path": "prompts/agent-builder-instructions.md",
-      "purpose": "Fictional field operations agent concept, instructions, prompts, and tests.",
-      "classification": "Public",
-      "generatedSampleContent": true
-    },
-    {
-      "path": "prompts/scout-cowork-prompts.md",
-      "purpose": "Optional trainer-prep prompts for Scout and Cowork workflows.",
-      "classification": "Public",
-      "generatedSampleContent": true
-    },
-    {
-      "path": "sample-data/field-operations-sample.json",
-      "purpose": "Fictional field updates, risks, actions, and office-hours questions.",
-      "classification": "Public",
-      "generatedSampleContent": true
-    },
-    {
-      "path": "sample-data/ai-champions.csv",
-      "purpose": "Fictional AI champion roster.",
-      "classification": "Public",
-      "generatedSampleContent": true
-    },
-    {
-      "path": "setup/cie-readiness-checklist.md",
-      "purpose": "Public-safe onsite field immersion readiness checklist.",
-      "classification": "Public",
-      "generatedSampleContent": true
-    },
-    {
-      "path": "artifacts/in-case-you-missed-it.md",
-      "purpose": "Public-safe follow-up handout template.",
-      "classification": "Public",
-      "generatedSampleContent": true
-    },
-    {
-      "path": "artifacts/persona-cards.md",
-      "purpose": "Persona guidance for demo customization.",
-      "classification": "Public",
-      "generatedSampleContent": true
     },
     {
       "path": "LICENSE",
-      "purpose": "MIT license.",
-      "classification": "Public",
+      "classification": "Public license",
+      "purpose": "Course-scoped demo instruction or supporting artifact.",
       "generatedSampleContent": false
+    },
+    {
+      "path": "README.md",
+      "classification": "Public",
+      "purpose": "Course-scoped demo instruction or supporting artifact.",
+      "generatedSampleContent": false
+    },
+    {
+      "path": "shared/sample-data/field-operations-notes.md",
+      "classification": "Public",
+      "purpose": "Course-scoped demo instruction or supporting artifact.",
+      "generatedSampleContent": true
+    },
+    {
+      "path": "shared/sample-data/teams-thread-sample.md",
+      "classification": "Public",
+      "purpose": "Course-scoped demo instruction or supporting artifact.",
+      "generatedSampleContent": true
     }
   ]
 }

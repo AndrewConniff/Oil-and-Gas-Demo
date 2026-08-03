@@ -8,63 +8,31 @@ This demo uses a fictional Microsoft Fake Company created for demonstration purp
 
 ## Scenario
 
-Oil and Gas Demo is a public-safe trainer package for **Fabrikam Field Energy**, a fictional distributed oil and gas field operations company. The package helps Microsoft Technical Trainers run concise, reusable demos for AI enablement across field sites, business leaders, operations, HR, IT, and AI champions.
+Oil and Gas Demo is a public-safe trainer package for **Fabrikam Field Energy**, a fictional distributed oil and gas field operations company. It is organized by course and by Microsoft 365 app so each demo can stand alone.
 
-## Technology focus
+## Course folders
 
-- Microsoft 365 Copilot
-- Copilot Chat
-- Copilot in Word, PowerPoint, Teams, Outlook, and OneNote
-- Microsoft 365 Agent Builder or SharePoint agent concepts
-- Optional Microsoft Scout and Cowork trainer-prep prompts
-
-## Course-aligned flow
-
-1. MS-4023: Copilot Chat fundamentals for unlicensed users.
-2. AI-3025: Microsoft 365 Copilot fundamentals for licensed users.
-3. Copilot in Apps: Word and PowerPoint.
-4. Copilot in Apps: Teams, Outlook, and OneNote.
-5. Agents: field operations knowledge assistant concept.
-6. AI Champions and office-hours support.
-7. CIE-style field immersion readiness.
-
-## Repository contents
-
-| Path | Purpose |
+| Folder | Technology scope |
 | --- | --- |
-| `DEMO-INSTRUCTIONS.md` | Concise trainer runbook with course-order steps and prompts. |
-| `prompts/copilot-chat-prompts.md` | MS-4023-aligned prompts for Copilot Chat users. |
-| `prompts/m365-copilot-prompts.md` | AI-3025 and app prompts for licensed users. |
-| `prompts/agent-builder-instructions.md` | Field operations agent concept, instructions, starter prompts, and tests. |
-| `prompts/scout-cowork-prompts.md` | Optional trainer-prep prompts for Scout and Cowork workflows. |
-| `sample-data/field-operations-sample.json` | Fictional field updates, risk notes, and office-hours questions. |
-| `sample-data/ai-champions.csv` | Fictional AI champion roster. |
-| `setup/cie-readiness-checklist.md` | Onsite immersion logistics and readiness checklist. |
-| `artifacts/in-case-you-missed-it.md` | Public-safe follow-up handout template. |
-| `artifacts/persona-cards.md` | Persona cards for trainers to map demos to audience roles. |
-| `manifest.json` | Artifact inventory and Public classification record. |
-| `LICENSE` | MIT license. |
+| [MS-4023: Unlicensed Copilot Chat](courses/MS-4023-Unlicensed-Copilot-Chat/README.md) | Copilot Chat only. No Microsoft 365 file grounding and no app-specific Copilot. |
+| [AI-3025: Licensed Microsoft 365 Copilot Chat](courses/AI-3025-Licensed-Copilot-Chat/README.md) | Licensed Microsoft 365 Copilot Chat with work content and app-specific Copilot experiences where available. |
+| [MS-4018: Copilot in Excel](courses/MS-4018-Excel/README.md) | Copilot in Excel plus licensed chat handoff using Analyst and the Excel-specific Copilot experience. |
+| [MS-4018: Copilot in Word](courses/MS-4018-Word/README.md) | Copilot in Word for creating, rewriting, and tightening an operations brief. |
+| [MS-4018: Copilot in PowerPoint](courses/MS-4018-PowerPoint/README.md) | Copilot in PowerPoint for turning a readiness story into a leadership deck. |
+| [MS-4018: Copilot in Outlook](courses/MS-4018-Outlook/README.md) | Copilot in Outlook for drafting, summarizing, and following up on field enablement communications. |
+| [MS-4018: Copilot in Teams](courses/MS-4018-Teams/README.md) | Copilot in Teams for meeting recap, chat summarization, decisions, and follow-up. |
 
-## Setup
+## What changed
 
-1. Review `DEMO-INSTRUCTIONS.md`.
-2. Copy only fictional sample data into the demo environment.
-3. Use prompts as written, or replace role names and site names with fictional alternatives.
-4. Do not add real customer data, internal URLs, tenant IDs, private meeting content, or confidential metrics.
+- MS-4023 is limited to unlicensed Copilot Chat.
+- AI-3025 is limited to licensed Microsoft 365 Copilot Chat.
+- MS-4018 folders are split by Excel, Word, PowerPoint, Outlook, and Teams.
+- Each course folder includes concise Markdown instructions and Word instructions.
+- Only Copilot Chat and Microsoft 365 app demo content is included.
 
-## Download links
+## Public-safe rules
 
-- [Demo instructions](https://github.com/AndrewConniff/Oil-and-Gas-Demo/blob/main/DEMO-INSTRUCTIONS.md)
-- [Copilot Chat prompts](https://github.com/AndrewConniff/Oil-and-Gas-Demo/blob/main/prompts/copilot-chat-prompts.md)
-- [M365 Copilot prompts](https://github.com/AndrewConniff/Oil-and-Gas-Demo/blob/main/prompts/m365-copilot-prompts.md)
-- [Agent Builder instructions](https://github.com/AndrewConniff/Oil-and-Gas-Demo/blob/main/prompts/agent-builder-instructions.md)
-- [Scout and Cowork prompts](https://github.com/AndrewConniff/Oil-and-Gas-Demo/blob/main/prompts/scout-cowork-prompts.md)
-- [Field operations sample data](https://github.com/AndrewConniff/Oil-and-Gas-Demo/blob/main/sample-data/field-operations-sample.json)
-- [AI champions roster](https://github.com/AndrewConniff/Oil-and-Gas-Demo/blob/main/sample-data/ai-champions.csv)
-- [CIE readiness checklist](https://github.com/AndrewConniff/Oil-and-Gas-Demo/blob/main/setup/cie-readiness-checklist.md)
-- [In Case You Missed It handout](https://github.com/AndrewConniff/Oil-and-Gas-Demo/blob/main/artifacts/in-case-you-missed-it.md)
-- [Persona cards](https://github.com/AndrewConniff/Oil-and-Gas-Demo/blob/main/artifacts/persona-cards.md)
-- [Manifest](https://github.com/AndrewConniff/Oil-and-Gas-Demo/blob/main/manifest.json)
+Use only fictional Fabrikam Field Energy content. Do not add real customer names, tenant IDs, internal URLs, private meeting content, confidential metrics, or operational data.
 
 ## License
 
