@@ -131,12 +131,12 @@ Remove any temporary files created during delivery. Do not save real customer da
 
 ## Download links
 
-- [Copilot Chat prompts](prompts/copilot-chat-prompts.md)
-- [M365 Copilot prompts](prompts/m365-copilot-prompts.md)
-- [Agent Builder instructions](prompts/agent-builder-instructions.md)
-- [Scout and Cowork prompts](prompts/scout-cowork-prompts.md)
-- [Field operations sample data](sample-data/field-operations-sample.json)
-- [AI champions roster](sample-data/ai-champions.csv)
-- [CIE readiness checklist](setup/cie-readiness-checklist.md)
-- [In Case You Missed It handout](artifacts/in-case-you-missed-it.md)
-- [Persona cards](artifacts/persona-cards.md)
+- [Copilot Chat prompts](https://github.com/AndrewConniff/Oil-and-Gas-Demo/blob/main/prompts/copilot-chat-prompts.md)
+- [M365 Copilot prompts](https://github.com/AndrewConniff/Oil-and-Gas-Demo/blob/main/prompts/m365-copilot-prompts.md)
+- [Agent Builder instructions](https://github.com/AndrewConniff/Oil-and-Gas-Demo/blob/main/prompts/agent-builder-instructions.md)
+- [Scout and Cowork prompts](https://github.com/AndrewConniff/Oil-and-Gas-Demo/blob/main/prompts/scout-cowork-prompts.md)
+- [Field operations sample data](https://github.com/AndrewConniff/Oil-and-Gas-Demo/blob/main/sample-data/field-operations-sample.json)
+- [AI champions roster](https://github.com/AndrewConniff/Oil-and-Gas-Demo/blob/main/sample-data/ai-champions.csv)
+- [CIE readiness checklist](https://github.com/AndrewConniff/Oil-and-Gas-Demo/blob/main/setup/cie-readiness-checklist.md)
+- [In Case You Missed It handout](https://github.com/AndrewConniff/Oil-and-Gas-Demo/blob/main/artifacts/in-case-you-missed-it.md)
+- [Persona cards](https://github.com/AndrewConniff/Oil-and-Gas-Demo/blob/main/artifacts/persona-cards.md)
