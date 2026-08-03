@@ -1,0 +1,81 @@
+{
+  "classification": "Public",
+  "demoName": "Oil and Gas Demo",
+  "fictionalCompany": "Fabrikam Field Energy",
+  "repository": "AndrewConniff/Oil-and-Gas-Demo",
+  "disclaimer": "This demo uses a fictional Microsoft Fake Company created for demonstration purposes. Any resemblance to real organizations, people, products, services, or data is coincidental. Do not use customer confidential information in this repository.",
+  "artifacts": [
+    {
+      "path": "README.md",
+      "purpose": "Repository overview, scenario, setup, and download links.",
+      "classification": "Public",
+      "generatedSampleContent": false
+    },
+    {
+      "path": "DEMO-INSTRUCTIONS.md",
+      "purpose": "Concise trainer runbook ordered by course material.",
+      "classification": "Public",
+      "generatedSampleContent": false
+    },
+    {
+      "path": "prompts/copilot-chat-prompts.md",
+      "purpose": "MS-4023 Copilot Chat prompt flow.",
+      "classification": "Public",
+      "generatedSampleContent": true
+    },
+    {
+      "path": "prompts/m365-copilot-prompts.md",
+      "purpose": "AI-3025 and Copilot in Apps prompt flow.",
+      "classification": "Public",
+      "generatedSampleContent": true
+    },
+    {
+      "path": "prompts/agent-builder-instructions.md",
+      "purpose": "Fictional field operations agent concept, instructions, prompts, and tests.",
+      "classification": "Public",
+      "generatedSampleContent": true
+    },
+    {
+      "path": "prompts/scout-cowork-prompts.md",
+      "purpose": "Optional trainer-prep prompts for Scout and Cowork workflows.",
+      "classification": "Public",
+      "generatedSampleContent": true
+    },
+    {
+      "path": "sample-data/field-operations-sample.json",
+      "purpose": "Fictional field updates, risks, actions, and office-hours questions.",
+      "classification": "Public",
+      "generatedSampleContent": true
+    },
+    {
+      "path": "sample-data/ai-champions.csv",
+      "purpose": "Fictional AI champion roster.",
+      "classification": "Public",
+      "generatedSampleContent": true
+    },
+    {
+      "path": "setup/cie-readiness-checklist.md",
+      "purpose": "Public-safe onsite field immersion readiness checklist.",
+      "classification": "Public",
+      "generatedSampleContent": true
+    },
+    {
+      "path": "artifacts/in-case-you-missed-it.md",
+      "purpose": "Public-safe follow-up handout template.",
+      "classification": "Public",
+      "generatedSampleContent": true
+    },
+    {
+      "path": "artifacts/persona-cards.md",
+      "purpose": "Persona guidance for demo customization.",
+      "classification": "Public",
+      "generatedSampleContent": true
+    },
+    {
+      "path": "LICENSE",
+      "purpose": "MIT license.",
+      "classification": "Public",
+      "generatedSampleContent": false
+    }
+  ]
+}

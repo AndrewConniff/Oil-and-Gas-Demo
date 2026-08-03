@@ -1,0 +1,32 @@
+{
+  "classification": "Public",
+  "disclaimer": "This demo uses a fictional Microsoft Fake Company created for demonstration purposes. Any resemblance to real organizations, people, products, services, or data is coincidental. Do not use customer confidential information in this repository.",
+  "fictionalCompany": "Fabrikam Field Energy",
+  "fieldUpdates": [
+    {
+      "site": "Bakken Field Office",
+      "summary": "The team completed routine inspection planning and identified a need for clearer handoff notes between field crews and operations coordinators.",
+      "risks": ["Incomplete shift handoff notes", "Delayed follow-up on maintenance observations"],
+      "nextActions": ["Create a standard handoff template", "Review open maintenance observations in the next operations sync"]
+    },
+    {
+      "site": "Eagle Ford Field Office",
+      "summary": "Supervisors are preparing for a field enablement session focused on safer prompt practices, executive updates, and office-hours support.",
+      "risks": ["Participants may paste sensitive data into prompts", "AI champions need clearer support guidance"],
+      "nextActions": ["Reinforce public-safe prompt examples", "Assign AI champions to collect questions"]
+    },
+    {
+      "site": "Permian Support Hub",
+      "summary": "Business leaders requested concise weekly summaries that connect operational activity to decisions and support needs.",
+      "risks": ["Too much operational detail in leadership updates", "Unclear decision ownership"],
+      "nextActions": ["Create executive summary prompts", "Add owner-role placeholders to action lists"]
+    }
+  ],
+  "officeHoursQuestions": [
+    "How do we summarize field notes without exposing confidential data?",
+    "Which Copilot prompts work for unlicensed users?",
+    "How can AI champions help after the training?",
+    "What is the difference between Copilot Chat and Microsoft 365 Copilot?",
+    "How should we prepare for an onsite immersion session?"
+  ]
+}
